@@ -1,0 +1,41 @@
+/*電卓全体のデザイン装飾*/
+table {
+    /*電卓のサイズ設定*/
+    width: 300px;
+    text-align: center;
+    padding: 8px;
+    margin: 20px;
+}
+
+/*液晶画面のみ表示サイズの調整*/
+#result {
+    height: 60px;
+    font-size: 30px;
+    color: white;
+    text-align: rigth;
+    width: calc(100%/1.2);
+    border-radius: 5px;
+    background-color: #000000;
+}
+
+.button_fifth {
+    width: calc(100%/2);
+}
+
+/*１〜４段目のボタンの外観を装飾する*/
+button {
+    width: 70px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 700;;
+}
+
+/*ボタン部分のみカーソルを乗せたら色が変化する*/
+button:hover {
+    border-color: #160091;
+}
+
+/*液晶部分のみhover要素を消す*/
+#result:hover {
+    border-color: #000000;
+}
